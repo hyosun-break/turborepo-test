@@ -7,8 +7,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "build": "turbo run build --filter=break",
+    "dev": "turbo run dev --filter=break",
+    "start": "turbo run start --filter=break",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
