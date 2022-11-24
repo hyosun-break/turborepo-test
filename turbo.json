@@ -14,5 +14,7 @@
     "test": {
       "outputs": []
     }
-  }
+  },
+
+  "globalDependencies": ["tsconfig.json"]
 }
