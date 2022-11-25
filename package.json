@@ -7,7 +7,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build --filter=break^...",
+    "build": "turbo run build",
     "dev": "turbo run dev --filter=break",
     "start": "turbo run start --filter=break",
     "lint": "turbo run lint",

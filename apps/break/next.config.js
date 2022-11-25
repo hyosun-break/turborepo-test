@@ -4,7 +4,6 @@ const withTM = require('next-transpile-modules')(['break-ui']);
 module.exports = withTM({
   reactStrictMode: true,
   experimental: {
-    externalDir: true,
     transpilePackages: ['break-ui'],
   },
   module: {
