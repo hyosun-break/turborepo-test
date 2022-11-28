@@ -13,6 +13,6 @@ export const getSnapshotConfig: (
     // 스냅샷 이름 정의
     customSnapshotIdentifier: imageName,
     // 비교 이미지 출력 경로
-    customDiffDir: './test/e2e/tests/__image_snapshots__/__diff_output__/',
+    customDiffDir: '../../test/e2e/tests/__image_snapshots__/__diff_output__/',
   };
 };
