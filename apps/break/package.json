@@ -6,19 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "cross-env JEST_PUPPETEER_CONFIG=../../test/e2e/jest-puppeteer.config.js jest --config=../../test/e2e/jest.config.js --watch",
+    "test-update": "cross-env JEST_PUPPETEER_CONFIG=../../test/e2e/jest-puppeteer.config.js jest --config=../../test/e2e/jest.config.js --updateSnapshot"
   },
   "dependencies": {
     "next": "12.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "break-ui": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "eslint": "7.32.0",
     "eslint-config-custom": "*",
     "tsconfig": "*",
-    "break-ui": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
