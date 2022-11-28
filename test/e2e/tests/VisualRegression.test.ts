@@ -1,4 +1,4 @@
-import { getSnapshotConfig } from '../imageComparison.js';
+import { getSnapshotConfig } from '../imageComparison';
 import initializeTest from '../initialize';
 
 it(`Visual Regression Test`, async () => {

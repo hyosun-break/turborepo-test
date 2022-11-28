@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-const HOST_BASE_URL = 'http://localhost:3000/';
+const HOST_BASE_URL = 'http://localhost:3001/';
 
 const initializeTest = async () => {
   const browser = await puppeteer.launch();

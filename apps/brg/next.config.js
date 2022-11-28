@@ -3,7 +3,6 @@ const withTM = require('next-transpile-modules')(['break-ui']);
 
 module.exports = withTM({
   reactStrictMode: true,
-
   module: {
     rules: [
       {

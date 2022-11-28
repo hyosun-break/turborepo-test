@@ -1,9 +1,11 @@
+/**
+ * @type {import('next').NextConfig}
+ */
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const withTM = require('next-transpile-modules')(['break-ui']);
 
 module.exports = withTM({
   reactStrictMode: true,
-
   module: {
     rules: [
       {
